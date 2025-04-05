@@ -4,8 +4,9 @@ import "./Add.css";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const Add = ({url}) => {
-  
+const Add = ({ url }) => {
+  //const url = "http://localhost:9005";
+
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
@@ -36,11 +37,11 @@ const Add = ({url}) => {
         description: "",
         price: "",
         category: "Salad",
-      })
-      setImage(false)
-      toast.success(response.data.message)
+      });
+      setImage(false);
+      toast.success(response.data.message);
     } else {
-        toast.error(response.data.message)
+      toast.error(response.data.message);
     }
   };
 
