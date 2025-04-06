@@ -1,9 +1,34 @@
-# React + Vite
+# 🛠️ Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React** and **Node.js** based Admin Panel for managing a Food Delivery platform.  
+It is the **frontend application** and is intended to be used with its **corresponding backend**.
 
-Currently, two official plugins are available:
-- new build
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+
+- **Frontend**: React.js  
+- **Styling**: Tailwind CSS  
+- **Backend (Required)**: Node.js + Express (hosted separately)
+
+---
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Zaid-dagbanbia/food-del-admin.git
+   cd food-del-admin
+
+2. Install dependencies
+
+   npm install
+
+3. Start the development server
+
+npm run dev
+
+
+⚠️ Note:
+Ensure the backend server is running and accessible (locally or hosted) for full functionality such as food listing, orders, and authentication
+
