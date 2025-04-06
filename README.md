@@ -7,8 +7,7 @@ It is the **frontend application** and is intended to be used with its **corresp
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React.js  
-- **Styling**: Tailwind CSS  
+- **Frontend**: React.js    
 - **Backend (Required)**: Node.js + Express (hosted separately)
 
 ---
